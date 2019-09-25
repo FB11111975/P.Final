@@ -1,0 +1,125 @@
+body{
+  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 12px;
+
+}
+header{
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-shadow: 2px 2px #02010a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  }
+header a{
+  display: inline-flex;
+  flex-wrap: wrap;
+  color: white;
+  margin: 0px 12px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.contenedor{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+    }
+#Primero{
+    background-color: #82c3a6;
+    width: 100%;
+  }
+  #Primero div img{
+  width: 70%;
+  margin-left: 15%;
+  padding: 10px;
+
+    }
+  #segundo{
+  background-color: #d5c75f;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  padding-left: 10%;
+
+          }
+  #segundo div {
+  width: 50%;
+            }
+
+  #segundo #Imagen2 img {
+  width: 79%;
+  box-shadow: 2px 2px #82c3a6;
+              }
+  #segundo #Imagen3 img {
+  width: 75%;
+  box-shadow: 2px 2px #82c3a6;
+            }
+ #Imagen2  a {
+  color: black;
+  padding-left: 35%;
+}
+#Imagen3  a {
+ color: black;
+ padding-left: 30%;
+ }
+
+ #segundo #Imagen2 img:hover{
+      transition: 1s;
+      transform: rotate(10deg);
+            }
+ #segundo #Imagen3 img:hover{
+      transform: translate(5px, -20px);
+    }
+
+
+  #PiePagina{
+  background-color: #C6d5c5;
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+  flex-flow: row;
+  text-align:  center;
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  border-radius: 0px 0px 10px 10px; 
+}
+
+#Contacto, #Terminos, #Redes Sociales, #Derechos{
+Margin: 0 auto;
+}
+@media screen and (max-width: 900px){
+  .contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+      }
+  #segundo{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  #PiePagina{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+  }
+  header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+      }
+  #Imagen2  a {
+   padding-left: 22%;
+      }
+  #Imagen3  a {
+   padding-left: 22%;
+      }
+
+        }
